@@ -13,7 +13,6 @@ typedef struct {
     float average_grade;
 } Student;
 
-// Function prototypes
 void addStudentToFile(const Student *student);
 void printTopStudents(const char *filename);
 
