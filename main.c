@@ -6,7 +6,6 @@
 int main() {
     Student student;
 
-    // Example of adding students
     printf("Adding students...\n");
     
     strcpy(student.name, "John Doe");
@@ -21,7 +20,6 @@ int main() {
     student.average_grade = 7.9;
     addStudentToFile(&student);
 
-    // Example of printing top students
     printTopStudents("students.dat");
 
     return 0;
